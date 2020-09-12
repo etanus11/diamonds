@@ -12,7 +12,7 @@ url: http://dna.nust.na
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /diamonds
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
+# source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 
 ##########
 # SITE SETTINGS
@@ -20,7 +20,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 # title of site appears in banner
 title: Diamond mining in Namibia
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Diamond mining in early 20th century
+tagline: Diamond mining in the early 20th century
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Pictures of ghost towns Elizabeth Bay and Charlottental taken in 1980 by Edda Schoedder"  
