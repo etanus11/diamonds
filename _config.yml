@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://www.lib.uidaho.edu
+url: http://dna.nust.na
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo
+baseurl: /diamonds
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 
@@ -18,19 +18,19 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-sa
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder SA
+title: Diamond mining in Namibia
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Diamond mining in early 20th century
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-SA is a template for creating digital collection exhibits using static web technology."  
+description: "Pictures of ghost towns Elizabeth Bay and Charlottental taken in 1980 by Edda Schoedder"  
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: NUST Library
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+organization-name: "Digital Collections, Library, Namibia University of Science and Technology"
+organization-link: http://library.nust.na
+organization-logo-banner: http://library.nust.na/sites/all/themes/pressa/logo.png
+organization-logo-nav: http://library.nust.na/sites/all/themes/pressa/xlogo.png.pagespeed.ic.ypOTsQdPM2.webp
 
 ##########
 # COLLECTION SETTINGS
@@ -39,11 +39,11 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 # If using local folder, dir name with proceeding slash. If using external web location, provide full URL
 objects: /objects 
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo-metadata
+metadata: sperrgebiet_new
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
-  - data: 'demo-metadata'
+  - data: 'sperrgebiet_new'
     template: 'items'
     name: 'objectid'
     dir: 'items'
