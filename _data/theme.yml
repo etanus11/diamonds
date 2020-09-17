@@ -8,7 +8,7 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: img_00000
+featured-image: img_042150
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -28,7 +28,7 @@ featured-locations-max: 3 # set number of top locations to display if auto gener
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: Elizabeth Bay
+about-featured-image: Ruina of old buildings at Elizabeth Bay
 # https://cdil.lib.uidaho.edu/images/palouse_sm.jpg
 
 ##########
@@ -68,13 +68,13 @@ map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStr
 map-search: true # not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: true # suggested for large collection or with many items in same location
-map-cluster-radius: 2o # size of clusters, from ~ 10 to 80
+map-cluster-radius: 20 # size of clusters, from ~ 10 to 80
 
 ##########
 # TIMELINE PAGE
 #
-year-navigation: #"1909;1905;1910;1915;1940" # manually set years to appear in dropdown nav
-year-nav-increment: 5 # set increments to auto gen nav years
+year-navigation: #"1909;1910;1915;1922;1935" # manually set years to appear in dropdown nav
+year-nav-increment: 2 # set increments to auto gen nav years
 
 ##########
 # DATA 
@@ -108,4 +108,5 @@ base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#17a2b8"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+font-cdn: <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+# add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
