@@ -20,7 +20,7 @@ carousel-height: 300
 featured-subjects: Sperrgebiet;Ghost towns;Diamond mining;# separate by semi-colon(';')
 featured-subjects-max: 5 # set number of top subjects to display if auto generating
 # Same as subjectsove. Leave blank for automatically generated locations. Or add locations you'd like to feature. For list see data/places.csv
-featured-locations: Elizabeth Bay;Charlottental;Sperrgebiet# separate by semi-colon(';') 
+featured-locations: Elizabeth Bay;Charlottental;Sperrgebiet;  # separate by semi-colon(';') 
 featured-locations-max: 3 # set number of top locations to display if auto generating
 
 ##########
@@ -28,7 +28,7 @@ featured-locations-max: 3 # set number of top locations to display if auto gener
 #
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-about-featured-image: Ruina of old buildings at Elizabeth Bay
+about-featured-image: Ruins of old buildings at Elizabeth Bay
 # https://cdil.lib.uidaho.edu/images/palouse_sm.jpg
 
 ##########
@@ -46,9 +46,9 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # SUBJECTS PAGE
 #
-subjects-fields: title;subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 2 # min size for subject cloud, too many terms = slow load time!
-subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+subjects-fields: title;subject;creator;description; # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+subjects-min: 3 # min size for subject cloud, too many terms = slow load time!
+subjects-stopwords: Diamonds;Namibia;Chalottental;Elizabeth Bay;  # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
@@ -66,14 +66,14 @@ longitude: 17.014185 #to determine center of map
 zoom-level: 3 # zoom level for map 
 map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery
 map-search: true # not suggested with large collections
-map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
+map-search-fuzziness: 0.25 # fuzzy search range from 1 = anything to 0 = exact match only
 map-cluster: true # suggested for large collection or with many items in same location
-map-cluster-radius: 20 # size of clusters, from ~ 10 to 80
+map-cluster-radius: 40 # size of clusters, from ~ 10 to 80
 
 ##########
 # TIMELINE PAGE
 #
-year-navigation: #"1909;1910;1915;1922;1935" # manually set years to appear in dropdown nav
+year-navigation: "1909;1910;1915;1922;1935" # manually set years to appear in dropdown nav
 year-nav-increment: 2 # set increments to auto gen nav years
 
 ##########
@@ -95,12 +95,12 @@ metadata-facets-fields: "subject,creator,format"
 navbar-color: navbar-light
 # navbar background color
 # Choose from bg-primary, bg-secondary, bg-success, bg-danger, bg-warning, bg-info, bg-light, bg-dark, bg-white
-navbar-background: bg-dark
+navbar-background: bg-primary
 
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: sandstone
+bootswatch: lumen
 # leave blank or comment out for plain bootstrap
 
 # THEME FONTS
@@ -108,5 +108,5 @@ base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#17a2b8"
 base-font-family: # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+font-cdn: link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"
 # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
